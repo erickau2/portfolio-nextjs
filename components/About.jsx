@@ -1,43 +1,54 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import AboutImg from "../public/assets/about.jpg";
+import Avatar from "../public/assets/avatar.png";
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 text-gray-600">
+            I specialize in all aspects of advanced web development, and my
+            experience and expertise have made me a highly sought-after web
+            developer. I am an experienced professional who is knowledgeable in
+            user interface, testing, and debugging processes. I have a deep
+            understanding of the design, installation, testing, and maintenance
+            of web systems, and I bring forth a diverse and promising skill-set
+            to every project I undertake.
           </p>
-          <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          <p className="py-2 text-gray-600">
+            With proficiency in an assortment of technologies, including
+            Node.js, Nest.js, TypeOrm, Docker, and MySQL, I am capable of
+            building web systems that are tailored to meet the unique needs of
+            my clients. My comprehensive understanding of web development
+            ensures that I am equipped to handle any project, no matter how
+            complex or challenging. Whether you need a new website built from
+            scratch or an existing web system updated, I have the skills and
+            experience necessary to deliver exceptional results that exceed your
+            expectations.
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+          <p className="py-2 text-gray-600">
+            In short, I am a highly experienced and skilled web developer who
+            specializes in advanced web development. With expertise in all
+            stages of web development, a deep understanding of user interface,
+            testing, and debugging processes, and a diverse skill-set that
+            includes proficiency in a variety of technologies, I am the ideal
+            choice for any web development project.
+          </p>
+          <Link href="/#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <Image src={Avatar} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>
