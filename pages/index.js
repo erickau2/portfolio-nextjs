@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Erick Au | Home Page</title>
+        <title>Erick Au | Home Page </title>
         <meta
           name="description"
           content="I am Erick Au , welcome to my Home Page"

@@ -54,6 +54,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <footer> @Credit fireClint for The Webpage Design</footer>
     </div>
   );
 };
