@@ -7,7 +7,8 @@ import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
 import onlineBotImg from "../public/assets/projects/online-bot-art.png";
-
+import todoApp from "../public/assets/projects/todo-app.jpg";
+import scarpingArt from "../public/assets/projects/scraping.jpg";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
@@ -20,26 +21,20 @@ const Projects = () => {
           <ProjectItem
             title="Online Shopping Automation Bot System"
             backgroundImg={onlineBotImg}
-            projectUrl="/property"
-            tech="Nest.JS/puppeteer/node.js"
+            projectUrl="/online-bot"
+            tech="Nest.JS/Puppeteer/Node.js"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/crypto"
-            tech="React JS"
+            title="React To-Do App"
+            backgroundImg={todoApp}
+            projectUrl="/todo-app"
+            tech="React.JS"
           />
           <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
+            title="Web-Scraping Tools"
+            backgroundImg={scarpingArt}
             projectUrl="/netflix"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
-            tech="Next JS"
+            tech="Python/Beautifulsoup"
           />
         </div>
       </div>
