@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn, FaDownload } from "react-icons/fa";
 const resume = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "../public/assets/resume.pdf";
+    link.href = "/pdfs/resume.pdf";
     link.download = "Erick_Resume.pdf";
     link.click();
   };
